@@ -1,7 +1,6 @@
 import { Meteor } from 'meteor/meteor'
 import { LinksCollection } from '/imports/api/links'
-import "../imports/api/methods/users"
-import "../imports/api/methods/categories"
+import "../imports/api/methods/index"
 
 
 async function insertLink({ title, url }) {
